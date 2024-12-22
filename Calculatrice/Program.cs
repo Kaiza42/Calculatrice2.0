@@ -101,10 +101,10 @@ namespace MyApp
                 {
                     Console.WriteLine("Le dernier resulat est : " + resultat);
                     Console.WriteLine("Appuyer sur 'o' si vous souhaitez garder votre resultat, si vous choisissez cette option votre resultat seras effacer");
-                    // Je precise cet affichage ca rje n'ai reussi a corriger une erreure ce qui mene l'utilisateur sa ne pas rencontrer cette erreure
+                    // Je precise cet affichage car je n'ai reussi a corriger une erreure ce qui mene l'utilisateur a ne pas rencontrer cette erreure
                     Console.WriteLine("Ou appuyer une fois sur n'importe quel autre touche pour recomencez au debut pour un nouveau calcul");
                     Console.Write("Votre choix est : ");
-                    // j'ai pas reussi a gerer cette erreure j'ai fait de multiple essaie mais celle ci me pose probleme Je pense que c'est le tout qui devrais etre changer 
+                    // j'ai pas reussi a gerer cette erreure j'ai fait de multiple essaie mais celle ci me pose probleme Je pense que ce if else n'est pas correct 
                     char reponse = Convert.ToChar(Console.ReadLine());
                     //o pour OUI 
                     if (reponse == 'o' || reponse == 'O')
